@@ -7,7 +7,7 @@ use App\Http\Resources\TaskResource;
 use App\Models\Task;
 use Illuminate\Http\Request;
 
-class CompleteTaskContrller extends Controller
+class CompleteTaskController extends Controller
 {
     /**
      * Handle the incoming request.
