@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Http\Controllers\Api\V2;
+namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
 use App\Http\Resources\TaskResource;
 use App\Models\Task;
 use Illuminate\Http\Request;
 
-class CompleteTaskContrller extends Controller
+class CompleteTaskController extends Controller
 {
     /**
      * Handle the incoming request.
