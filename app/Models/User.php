@@ -42,4 +42,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    function taks() {
+        return $this->hasMany(Task::class, 'user_id', 'id');
+    }
+
+    
+
 }
